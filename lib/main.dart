@@ -33,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
   TextEditingController number = TextEditingController();
   TextEditingController messageEntered = TextEditingController();
 
-  List<String> recipients = ['03088404460', '03230445347'];
+  List<String> recipients = [];
 
   createAlertDialog(BuildContext context, String ttl, String msg) {
     return showDialog(
@@ -79,7 +79,7 @@ class _MyHomePageState extends State<MyHomePage> {
     setState(() {
       number = TextEditingController();
       messageEntered = TextEditingController();
-      recipients = ['03088404460', '03230445347'];
+      recipients = [];
     });
     createAlertDialog(context, 'Success', 'The messages have been delivered.');
   }
