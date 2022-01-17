@@ -1,0 +1,28 @@
+name: sms_app
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sms: ^0.2.0
+  cupertino_icons: ^0.1.2
+  file_picker: ^1.9.0+1
+  csv: ^4.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  
